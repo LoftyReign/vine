@@ -1,11 +1,25 @@
 commands:
   - aliases:
-      - E
-      - e
-    command: cd c:/substE
+      - h
+      - home
+    command: cd ~
   - aliases:
-      - vm
-      - VM
-      - convm
-      - conVM
-    command: ./vine_scripts/connectVMSSH.sh
+      - p
+      - personal
+    command: cd d:/personal
+  - aliases:
+      - dotfiles
+      - dotfile
+      - dot
+    command: cd d:/personal/dotfiles
+  - aliases:
+      - nvim
+      - vim
+    command: cd ~/appdata/local/nvim
+  - aliases:
+      - vine
+    command: cd d:/personal/vine
+  - aliases:
+      - pi
+      - conpi
+    command: ./vine_scripts/connectPISSH.sh

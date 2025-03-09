@@ -10,8 +10,8 @@ function vine() {
 
     trap 'unset '"$vine_execution_var" RETURN
 
-    if [[ "$1" == "-d" ]]; then
-        output=$("$vine_binary" alias "$2")
+    if [[ "$1" != "-e" ]]; then
+        output=$("$vine_binary" alias "$1")
         _cd_back
         eval "$output"
     elif [[ "$1" == "-e" ]]; then
