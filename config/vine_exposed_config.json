@@ -1,0 +1,6 @@
+{
+    "vine_execution_var": "VINE_EXECUTE",
+    "vine_root_dir": ".vine",
+    "vine_root_cmd": "vine",
+    "vine_binary": "vine_aly"
+}

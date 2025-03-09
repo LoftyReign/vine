@@ -1,0 +1,7 @@
+{
+    "commands": {
+        "alias": "bash",
+        "install": "make",
+        "update": "make"
+    }
+}
